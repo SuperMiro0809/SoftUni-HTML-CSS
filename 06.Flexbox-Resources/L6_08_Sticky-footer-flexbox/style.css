@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    border-bottom: 3px solid black;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+main {
+    margin-top: 30px;
+}
+
+main h2 {
+    font-weight: 400;
+    font-family: Georgia, serif;
+}
+
+main p {
+    margin: 20px 0;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+}
+
+footer p {
+    padding: 10px;
+}

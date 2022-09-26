@@ -1,0 +1,22 @@
+body {
+    display: flex;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery li {
+    display: flex;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.gallery li img {
+    object-fit: cover;
+    border: 8px solid black;
+    background-color: white;
+    padding: 30px;
+}

@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding: 15px;
+    box-shadow: 0px 0px 19px -4px #000000;
+    width: 25%;
+}
+
+.card h3 {
+    margin: 0;
+}
