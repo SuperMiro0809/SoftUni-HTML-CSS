@@ -1,0 +1,24 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+ul {
+    display: inline-block;
+}
+
+li {
+    float: left;
+    background-color: #EEEEEE;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 50%;
+    list-style: none;
+}
+
+a {
+    font-size: 35px;
+    border-radius: 50%;
+    color: black;
+}
+
+a:hover {
+    color: #007BB6;
+}

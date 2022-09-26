@@ -1,0 +1,91 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 1em/1.2 Georgia, serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+header {
+    border-bottom: 3px solid black;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-ul {
+    list-style: none;
+    margin: 0;
+}
+
+.menu-ul li {
+    display: inline-block;
+    margin: 15px;
+}
+
+img {
+    padding: 10px;
+    border: 5px solid black;
+    margin: 10px;
+    background-color:rgb(255, 255, 255) ;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.25) ;
+}
+
+
+img:first-of-type {
+    float: right;
+}
+
+.picture2 {
+    float: left;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 40px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+blockquote {
+    width: 45%;
+    vertical-align: top;
+    border-left: 5px solid #E1E1E1;
+    padding-left: 10px;
+    color:  #9AA0AA;
+    font-style: italic;
+    float: right;
+    font-family: Georgia, serif;
+}
+
+.author {
+    float: right;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+.main-content {
+    width: 80%;
+}
+
+aside {
+    float: right;
+}
