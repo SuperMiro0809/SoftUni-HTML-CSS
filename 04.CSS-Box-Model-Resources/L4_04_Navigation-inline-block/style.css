@@ -1,0 +1,36 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 3px solid black;
+}
+
+.title {
+    display: inline-block;
+    font-size: 40px;
+    margin-right: 50px;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu-ul {
+    list-style-type: none;
+}
+
+.menu-ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu-ul li a {
+    color: #1E9D1F;
+    text-decoration: none;
+}

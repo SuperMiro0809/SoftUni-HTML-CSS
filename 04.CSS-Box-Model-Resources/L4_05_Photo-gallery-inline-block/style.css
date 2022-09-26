@@ -1,0 +1,21 @@
+body {
+    background-color: #EEEEEE;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    border: .4rem solid black;
+    padding: 15px;
+    max-width: 300px;
+    margin: 10px;
+}
+
+.gallery {
+    list-style-type: none;
+}
+
+.gallery li {
+    display: inline-block;
+    vertical-align: middle;
+}
