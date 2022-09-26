@@ -1,0 +1,54 @@
+.explore {
+    max-width: 1300px;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    color: white;
+    border-radius: 6px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom,rgba(115, 126, 137, 40%),rgba(115, 126, 137, 40%)), url('./images/sign-up-prompt-background.jpg');
+    background-size: cover;
+}
+
+.explore-content h1 {
+    font-size: 20px;
+}
+
+.explore-content p {
+    font-size: 17px;
+}
+
+.explore-btn-wrapper {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.explore-btn:nth-child(1) {
+    color: #8DCBFA;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    margin-right: 50px;
+}
+
+.explore-btn:nth-child(1)::after {
+    content: '';
+    height: 35px;
+    width: 2px;
+    background-color: white;
+    position: absolute;
+    left: 48%;
+    bottom: 2%;
+}
+
+.explore-btn:nth-child(2) {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 30px;
+    border-radius: 6px;
+    outline: none;
+}

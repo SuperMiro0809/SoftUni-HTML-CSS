@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+body {
+    font-family: Lato, sans-serif;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.included {
+    background-color: #E3F3FD;
+    padding: 30px;
+    color: #808486;
+    flex-grow: 1;
+    border-radius: 6px;
+    flex-basis: 30%;
+}
+
+.included h1 {
+    color: #788795;
+    font-size: 23px;
+}
+
+.pay {
+    border: 5px solid #5DB5F9;
+    padding: 30px;
+    flex-grow: 1;
+    margin-left: 50px;
+    border-radius: 6px;
+    flex-basis: 30%;
+    text-align: center;
+    color: #808486;
+}
+
+.content {
+    padding: 0;
+}
+
+.content li {
+    list-style-type: none;
+    margin: 15px 15px 15px 0;
+}
+
+.content li::before {
+    content: '\f00c';
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    margin-right: 15px;
+    color: #41A8F8;
+}
+
+.content-wrapper {
+    margin: 50px 0;
+}
+
+.pay p {
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: #44A9F8;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    padding: 8px 50px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 30px;
+    box-shadow: 0px 9px 17px -1px #BBBBBB;
+}
+
+.pay p:nth-child(1) {
+    font-weight: bold;
+}
+
+.money {
+    color: #44A9F8;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 5px;
+}

@@ -1,0 +1,45 @@
+footer {
+    max-width: 1300px;
+    margin: 80px auto 0 auto;
+    padding: 30px 0;
+    border-top: 3px solid #D5D8DB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+.footer-menu li {
+    list-style-type: none;
+    margin: 0 5px;
+}
+
+.footer-menu li a {
+    color: black;
+    text-decoration: none;
+}
+
+.bottom-logo-wrapper img {
+    margin-right: 10px;
+}
+
+.copy {
+    color: #E4E4E4;
+}
+
+.social-medias {
+    display: flex;
+    padding: 0;
+}
+
+.social-medias li i {
+    font-size: 18px;
+}

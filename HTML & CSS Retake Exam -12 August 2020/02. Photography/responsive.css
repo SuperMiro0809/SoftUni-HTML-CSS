@@ -1,0 +1,24 @@
+/* TODO: Add media queries */
+
+@media all and (max-width: 600px) {
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .thumbnails {
+        flex-direction: column;
+    }
+
+    .thumbnails > div {
+        width: auto;
+    }
+
+    .thumbnails a img {
+        height: 200px;
+    }
+
+    .thumbnails a {
+        margin: 20px auto !important;
+    }
+}

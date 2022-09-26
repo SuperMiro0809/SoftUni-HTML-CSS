@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+@import url('./navigation.css');
+@import url('./diploma-certificate.css');
+@import url('./diploma.css');
+@import url('./explore.css');
+@import url('./footer.css');
+
+
+body {
+    font-family: Lato, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+}

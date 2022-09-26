@@ -1,0 +1,58 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+    background-color: white;
+    box-shadow: 0px 9px 17px -1px #BBBBBB;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 7px;
+    margin-bottom: 50px;
+}
+
+.head {
+    background-image: linear-gradient(to bottom,rgba(251, 251, 251, 80%),rgba(251, 251, 251, 80%)), url('./images/hero-certificates.jpg');
+    background-size: cover;
+}
+
+.logo {
+    width: 170px;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-content li {
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.menu-content li a {
+    color: #828A96;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.aa {
+    background-color: #42ABF8;
+    border-radius: 50%;
+    box-shadow: 0px 0px 17px -1px #42ABF8;
+}
+
+.aa a {
+    color: white !important;
+}
+
+.active::before {
+    content: '';
+    height: 5px;
+    width: 83px;
+    background-color: #42ABF8;
+    position: absolute;
+    top: -81%;
+}
