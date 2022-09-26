@@ -1,0 +1,73 @@
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+form {
+    background-color: #F8F8F8;
+    margin: 50px auto;
+    width: 30%;
+}
+
+legend {
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px 20px;
+}
+
+input {
+    width: 70%;
+    border-radius: 4px;
+    border: 1px solid #E4E4E4;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    padding-left: 30px;
+}
+
+label {
+    position: relative;
+    width: 20%;
+    font-weight: bold;
+}
+
+label:nth-child(3) span {
+    margin-right: 4px;
+}
+
+::after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    left: 80px;
+    top: 1px;
+}
+
+label:nth-child(2)::after {
+    content: "\f007";
+}
+
+label:nth-child(3)::after {
+    content: "\f084";
+}
+
+.login-btn {
+    color: white;
+    font-weight: bold;
+    background-color: #2D2D2D;
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+@media all and (max-width: 1100px) {
+    input {
+        width: 90%;
+    }
+
+    ::after {
+        left: 8px;
+        top: 21px;
+    }
+}
+
