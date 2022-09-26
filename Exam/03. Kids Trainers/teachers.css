@@ -1,0 +1,11 @@
+.teachers {
+    background-color: #FFB402;
+    color: white;
+    text-align: center;
+    padding: 50px 450px;
+}
+
+.teachers h1 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}

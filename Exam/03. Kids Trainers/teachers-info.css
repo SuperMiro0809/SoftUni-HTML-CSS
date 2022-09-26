@@ -1,0 +1,31 @@
+.teachers-info {
+    margin-top: 80px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.teacher-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.teacher-text {
+    padding: 0 20px;
+}
+
+.teacher-text h2 {
+    color: #41BEAD;
+}
+
+.subinfo {
+    color: #B5B3C1;
+    padding: 8px 0 20px 0;
+}
+
+.teacher-img img {
+    width: 200px;
+    border-radius: 50%;
+    border: 8px solid #41BEAD;
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #66B9F8;
+    font-family: 'Helvetica', sans-serif;
+}
+
+body, * {
+    margin: 0;
+    padding: 0;
+}   
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    padding-top: 80px;
+}
+
+.main {
+    padding: 0px 100px;
+}
+
+.news {
+    display: flex;
+}
+
+.new {
+    background-color: white;
+    border-radius: 8px;
+    flex-basis: 18%;
+    margin: 0 10px;
+    box-shadow: 0px 7px 15px -7px #000000;
+}
+
+.img-wrapper,
+.img-wrapper img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.text-wrapper {
+    padding: 15px;
+    position: relative;
+}
+
+.text-header h4 {
+    color: #FFAE43;
+    margin-bottom: 10px;
+}
+
+.text-header span {
+    color: #B7B7B7;
+    font-size: 14px;
+    padding: 20px;
+}
+
+::before {
+    position: absolute;
+}
+
+.date::before {
+    content: url('./images/calendar.svg');
+    left: 10px;
+    padding: 3px;
+    top: 60px;
+
+}
+
+.time::before {
+    content: url('./images/time.svg');
+    left: 155px;
+    top: 63px;
+}
+
+.text-footer {
+    margin-top: 10px;
+}
+
+.text-main {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.text-footer a {
+    text-decoration: none;
+    color: #FFAE43;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text-footer a::after {
+    content: '\f054';
+    font-family: "Font Awesome 5 Free"; 
+    margin-left: 10px;
+}
+
+.button-wrapper {
+    padding-top: 50px;
+    text-align: right;
+    padding-right: 70px;
+}
+
+.btn-all {
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid white;
+    color: white;
+}
