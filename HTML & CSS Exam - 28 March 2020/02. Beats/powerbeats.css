@@ -1,0 +1,55 @@
+.powerbeats {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    margin-top: 150px;
+}
+
+.powerbeats-text-wrapper {
+    flex-basis: 50%;
+}
+
+.main-text-wrapper h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 500;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 9px;
+}
+
+.subtitle {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #575757;
+}
+
+.subtitle span {
+    font-weight: bold;
+    color: black;
+}
+
+.main-text {
+    width: 90%;
+    margin-top: 80px;
+    font-size: 25px;
+    color: #575757;
+}
+
+.price-tag {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.price-tag h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.buy {
+    margin-left: 70px;
+    margin-bottom: 15px;
+}

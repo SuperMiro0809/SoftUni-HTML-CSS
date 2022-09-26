@@ -1,0 +1,38 @@
+.solo-wireless {
+    margin: 0 100px;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.solo-text-wrapper {
+    width: 40%;
+}
+
+.solo-text-wrapper h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.solo-text-wrapper p {
+    font-size: 25px;
+    color: #575757;
+}
+
+.beats-landing {
+    width: 700px;
+    position: relative;
+    left: 30%;
+}
+
+.view-more {
+    background-color: #FF0000;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 50px;
+    outline: none;
+    margin-top: 20px;
+}

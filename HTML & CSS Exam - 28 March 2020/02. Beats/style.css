@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('./navigation.css');
+@import url('./solo-wireless.css');
+@import url('./powerbeats.css');
+@import url('./try-free.css');
+@import url('./image-section.css');
+@import url('./footer.css');
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}

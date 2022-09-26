@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    font-family: Lato, sans-serif;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+header img {
+    width: 150px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-wrapper {
+    margin-left: 40px;
+}
+
+.text h1 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.text p {
+    color: gray;
+    font-size: 17px;
+    line-height: 35px;
+}
+
+.benefits {
+    position: relative;
+    margin-top: 35px;
+}
+
+.benefit {
+    margin-left: 80px;
+}
+
+.benefit h2 {
+    color: gray;
+    font-size: 16px;
+}
+
+.benefit p {
+    color: gray;
+}
+
+::before {
+    left: 0%;
+}
+
+.benefit:nth-child(1)::before {
+    content: url('./images/1.png');
+    position: absolute;
+}
+
+.benefit:nth-child(2)::before {
+    content: url('./images/2.png');
+    position: absolute;
+    left: 1%;
+}
+
+.benefit:nth-child(3)::before {
+    content: url('./images/3.png');
+    position: absolute;
+}

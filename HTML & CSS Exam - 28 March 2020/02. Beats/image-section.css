@@ -1,0 +1,39 @@
+.image-section {
+    display: flex;
+}
+
+.first-image {
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+.first-image img {
+    height: 100%;
+}
+
+.second-image {
+    background-color: #DADADA;
+    flex-grow: 1;
+    flex-basis: 50%;
+    display: flex;
+    padding: 80px 80px 0 80px;
+}
+
+.text-side h1 {
+    color: #333333;
+    font-size: 140px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.text-side p {
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.red {
+    color: #F54343;
+    text-transform: uppercase;
+}
