@@ -1,0 +1,146 @@
+.fee-title-wrapper {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+
+.fee-title-wrapper::before {
+    content: url('./images/calculator-icon.svg');
+    height: 200px;
+    position: absolute;
+    left: -4%;
+    top: 50%;
+    bottom: 50%;
+}
+
+.fee-title {
+    color: white;
+}
+
+.fees {
+    margin-top: 10px;
+    background-color: #54546D;
+}
+
+.fee {
+    background-color: white;
+    border-radius: 6px;
+    width: 30%;
+    margin: 0 20px;
+    height: 200px;
+}
+
+.fees-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 75px;
+}
+
+.fee-head {
+    text-align: center;
+    padding: 20px;
+    padding: 6px;
+}
+
+.fee-head h1 {
+    color: #747183;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.fee-head p {
+    font-size: 14px;
+}
+
+.fee-head h1,
+.fee-head p {
+    margin: 0;
+    padding: 0;
+}
+
+.fee-content {
+    text-align: center;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.fee-content-price {
+    text-align: center;
+    padding: 0 15px 15px 15px;
+    height: 100px;
+}
+
+.fee-btn {
+    background-color: #9A5DC6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 12px;
+    position: relative;
+    top: 30%;
+}
+
+
+.fee-footer {
+    text-align: center;
+    color: white;
+    background: rgb(13,163,71);
+    background: linear-gradient(90deg, rgba(13,163,71,1) 0%, rgba(38,184,94,1) 37%, rgba(55,191,106,1) 100%);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.fee-footer-prices {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+    background: rgb(77,109,138);
+    background: linear-gradient(90deg, rgba(77,109,138,1) 0%, rgba(88,133,175,1) 37%, rgba(96,150,201,1) 100%);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-top: 20px;
+    padding: 3px;
+}
+
+.fee-footer-prices-advanced {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+    background: rgb(77,59,168);
+    background: linear-gradient(90deg, rgba(77,59,168,1) 0%, rgba(109,92,197,1) 37%, rgba(135,119,220,1) 100%);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-top: 20px;
+    padding: 3px;
+}
+
+.price {
+    padding: 20px;
+}
+
+.price:nth-child(1) {
+    padding-right: 20px;
+    border-right: 3px solid white;
+}
+
+
+.fee-footer h1,
+.price h1 {
+    font-size: 20px;
+    margin: 3px;
+    padding: 3px;
+}
+
+.fee-footer p,
+.price p {
+    margin: 3px;
+    padding: 3px;
+}

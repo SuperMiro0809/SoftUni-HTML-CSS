@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo {
+    width: 150px;
+}
+
+.menu-content {
+    display: flex;
+}
+
+.menu-content li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.menu-content li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    font-weight: bold;
+}
+

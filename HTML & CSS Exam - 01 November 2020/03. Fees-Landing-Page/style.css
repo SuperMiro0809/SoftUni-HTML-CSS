@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+@import url('./navigation.css');
+@import url('./fees.css');
+@import url('./online.css');
+@import url('./postbank.css');
+@import url('./footer.css');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Lato, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Montserrat, sans-serif;
+}
+

@@ -1,0 +1,10 @@
+.postbank {
+    display: flex;
+    margin: 100px 75px 0 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-wrapper h1 {
+    color: #808399;
+}

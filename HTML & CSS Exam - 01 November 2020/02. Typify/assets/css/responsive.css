@@ -1,0 +1,70 @@
+@media all and (max-width: 600px) {
+    .feature {
+        width: 100%
+    }
+
+    .features {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    section.special {
+        display: flex;
+    }
+
+    .grid-form {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 100%;
+    }
+
+    .banner {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .banner h2 {
+        width: auto;
+        font-size: 1.4em;
+    }
+
+    .banner p {
+        font-size: 1em;
+    }
+
+    .banner .button.special {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .wrapper.style2 input[type="submit"] {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .footer {
+        padding: 16px;
+    }
+
+    .wrapper {
+        padding: 0;
+    }
+
+    header {
+        padding-top: 20px;
+    }
+
+    header.major {
+        margin-bottom: 0;
+        padding-top: 20px;
+    }
+
+    header h2 {
+        font-size: 23px;
+    }
+}
+

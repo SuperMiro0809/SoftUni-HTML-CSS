@@ -1,0 +1,44 @@
+.online-vs {
+    margin: 200px auto 0 auto;
+    max-width: 1100px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.online-head h1 {
+    color: #808399;
+}
+
+td {
+    padding: 10px;
+}
+
+td:nth-child(1) {
+    width: 60%;
+}
+
+tr:nth-child(1) {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+tr:nth-child(odd) {
+    background-color: #E3E3E3;
+}
+
+tr:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.error {
+    color: #FC4C50;
+    font-size: 18px;
+}
+
+.success {
+    color: #23AE52;
+    font-size: 18px;
+}
